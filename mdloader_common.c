@@ -830,8 +830,7 @@ int main(int argc, char *argv[])
     char appletfname[128] = "";
     strlower(mcu->name);
 
-    //sprintf(appletfname, "applet-flash-%s.bin", mcu->name);
-    sprintf(appletfname, "applet-flash-samd51j18a.bin", mcu->name);  //temporary fix
+    sprintf(appletfname, "applet-mdflash.bin");
       
     printf("Applet file: %s\n", appletfname);
 
