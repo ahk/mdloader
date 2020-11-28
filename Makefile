@@ -3,6 +3,10 @@ OBJDIR = build
 CC = gcc
 CFLAGS = -Wall -std=gnu99
 
+ifeq ($(OS),Windows_NT)
+CC = x86_64-w64-mingw32-gcc
+endif
+
 SRCFILES = mdloader_common.c mdloader_parser.c
 ifeq ($(OS),Windows_NT)
 SRCFILES += mdloader_win32.c
