@@ -26,7 +26,7 @@
     Opening port '/dev/cu.usbmodem234431'... Success!
     Found MCU: SAMD51J18A
     Bootloader version: v2.18Sep  4 2018 16:48:28
-    Applet file: applet-flash-samd51j18a.bin
+    Applet file: applet-mdflash.bin
     Applet Version: 1
     Writing firmware... Complete!
     Booting device... Success!
